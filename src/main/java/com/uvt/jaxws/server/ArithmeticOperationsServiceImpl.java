@@ -5,7 +5,8 @@ import javax.jws.WebService;
 /**
  * @author Hamza Ouni
  */
-@WebService(endpointInterface = " com.uvt.jaxws.server.ArithmeticOperationsService", portName = "ArithmeticOperationsPort")
+@WebService(endpointInterface = "com.uvt.jaxws.server.ArithmeticOperationsService", portName = "ArithmeticOperationsPort",
+targetNamespace = "http://com.uvt.jaxws.server/")
 public class ArithmeticOperationsServiceImpl implements ArithmeticOperationsService {
 
     @Override
